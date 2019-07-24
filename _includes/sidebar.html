@@ -1,0 +1,43 @@
+<nav id="sidebar">
+        <div class="sidebar-header">
+            <h3>Staff Handbook</h3>
+        </div>
+        {% include sidebar-links.html %}
+        <ul class="list-unstyled components">
+            <a href="#intro"><h5 style="text-align: center;">Standard Operating Procedures</h5></a>
+            <li>
+                <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Front Desk</a>
+                <ul class="collapse list-unstyled" id="homeSubmenu">
+                    <li>
+                        <a href="#reservations">Reservations</a>
+                    </li>
+                    <li>
+                        <a href="#checking">Checking in/out</a>
+                    </li>
+                    <li>
+                        <a href="#payments">Processing Payments</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#page4">Page 4</a>
+            </li>
+            <li>
+                <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">More Pages</a>
+                <ul class="collapse list-unstyled" id="pageSubmenu">
+                    <li>
+                        <a href="#page5">Page 5</a>
+                    </li>
+                    <li>
+                        <a href="#page6">Page 6</a>
+                    </li>
+                    <li>
+                        <a href="#page7">Page 7</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#page8">Page 8</a>
+            </li>
+        </ul>
+    </nav>
